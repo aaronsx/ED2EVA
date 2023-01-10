@@ -1,9 +1,11 @@
 package edu.java.ambitoVariablesClase;
 
 public class EjemploOcultacionTres {
-    int z=2; //atributo
-    public void metodo(){
-         double z;  //variable local
+
+   public int z=2; 
+ 
+	public void metodo(){
+         double z;   
          z = 6.2;
           System.out.println("Ocultación Tres metodo con this: " + this.z);
     }

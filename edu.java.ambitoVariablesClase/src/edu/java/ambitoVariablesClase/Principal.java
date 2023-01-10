@@ -3,8 +3,11 @@ package edu.java.ambitoVariablesClase;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		EjemploOcultacion.metodo();
+		EjemploOcultacionDos.metodo();
+		EjemploOcultacionTres eot = new EjemploOcultacionTres();
+		eot.metodo();
+		
 	}
 
 }

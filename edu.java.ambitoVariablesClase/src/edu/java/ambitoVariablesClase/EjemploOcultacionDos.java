@@ -2,9 +2,9 @@ package edu.java.ambitoVariablesClase;
 
 public class EjemploOcultacionDos {
 
-    static int z = 2; //atributo
+    static int z = 2; 
     static void metodo(){
-         double z;  //variable local
+         double z;  
          z = 6.2;
          pintar();
 
